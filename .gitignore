@@ -1,0 +1,51 @@
+# =============================
+# Python
+# =============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.env.bak/
+env/
+.venv/
+
+# SQLite database
+*.db
+*.sqlite3
+
+# VS Code
+.vscode/
+.history/
+
+# Logs
+*.log
+logs/
+debug.log
+
+# Cache / temporários
+*.cache
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Alembic (migrations)
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+
+# Testes
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Distribuição / builds
+build/
+dist/
+*.egg-info/
+
+# IDE / sistema
+.idea/
+*.iml

@@ -1,0 +1,30 @@
+# Framework principal
+fastapi==0.115.0
+uvicorn[standard]==0.30.1
+
+# ORM e banco de dados
+SQLAlchemy==2.0.25
+
+# Migrações de banco (para atualizar tabelas)
+alembic==1.13.2
+
+# Variáveis de ambiente (.env)
+python-decouple==3.8
+# ou, se preferir:
+# python-dotenv==1.0.1
+
+# Validação e schemas
+pydantic==2.8.2
+pydantic-settings==2.3.4
+
+# Segurança (opcional - para autenticação com senha/JWT)
+passlib[bcrypt]==1.7.4
+python-jose==3.3.0
+
+# Testes (opcional)
+pytest==8.3.2
+httpx==0.27.0
+
+# Formatação e lint (opcional)
+black==24.10.0
+isort==5.13.2
